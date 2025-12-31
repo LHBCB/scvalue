@@ -1,12 +1,12 @@
 # scValue
 
+`scValue` is a Python package for **value-based subsampling (“sketching”)** of large scRNA-seq datasets for downstream machine / deep learning tasks.
+
 <p align="center">
     <img width="100%" src="scValue_workflow.png" alt="scValue workflow">
 </p>
 
-`scValue` is a Python package for **value-based subsampling (“sketching”)** of large scRNA-seq datasets for downstream machine / deep learning tasks.
-
-scValue assigns each cell a **data value (DV)** using **out-of-bag (OOB)** estimates from a random forest classifier. Intuitively, a cell gets a higher DV if it is more helpful for correctly distinguishing its cell type in OOB predictions. scValue then builds a subsample by:
+`scValue` assigns each cell a **data value (DV)** using **out-of-bag (OOB)** estimates from a random forest classifier. Intuitively, a cell gets a higher DV if it is more helpful for correctly distinguishing its cell type in OOB predictions. scValue then builds a subsample by:
 1. **Computing DV for each cell** (OOB-based).
 2. **Allocating sketch size across cell types** (DV-weighted or proportional).
 3. **Selecting cells within each cell type** using a DV-guided strategy (binning or top-pick).
