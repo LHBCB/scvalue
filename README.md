@@ -94,4 +94,4 @@ All datasets used in our study are publicly available, as detailed in the [data 
     - `dv_summary.csv` (per-type DV summary statistics)
 
 ## Reference
-Li Huang, Weikang Gong, Dongsheng Chen, scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks, Briefings in Bioinformatics, Volume 26, Issue 3, May 2025, bbaf279, https://doi.org/10.1093/bib/bbaf279
+Li Huang, Weikang Gong, Dongsheng Chen, scValue: value-based subsampling of large-scale single-cell transcriptomic data for machine and deep learning tasks, *Briefings in Bioinformatics*, Volume 26, Issue 3, May 2025, bbaf279, https://doi.org/10.1093/bib/bbaf279
