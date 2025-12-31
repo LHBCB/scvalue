@@ -1,2 +1,3 @@
-# __init__.py
 from .scvalue import SCValue
+
+__all__ = ["SCValue"]
